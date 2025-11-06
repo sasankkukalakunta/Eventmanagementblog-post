@@ -1,5 +1,8 @@
 'use client';
-export const ExploreBtn = () => {
+
+import EventCard from "./EventCard";
+
+ const ExploreBtn = () => {
   return (
     <div>
         <button type ="button" id="explore-btn"  className="mt-7 mx-auto" onClick={() => console.log('Explore button clicked')}>
@@ -10,3 +13,5 @@ export const ExploreBtn = () => {
     </div>
   )
 }
+
+export default ExploreBtn;
